@@ -1,0 +1,56 @@
+* {
+	padding: 0%;
+	margin: 0%;
+}
+.quotesBG {
+	height: 600px;
+	width: 100%;
+	background-image: url(business-main.jpg);
+	background-size: cover;
+	position: relative;
+}
+
+.overlay {
+	height: 600px;
+	width: 100%;
+	position: absolute;
+	background-color: #4f7ebc;
+	opacity: 0.9;
+}
+
+.quotes {
+	display: flex;
+	justify-content: space-around;
+	justify-content: center;
+}
+.quotes .quote1 {
+	color: beige;
+	font-size: 25px;
+	/* background-color: azure; */
+	height: 80%;
+	width: 75%;
+	top: 30vh;
+	position: relative;
+	text-align: center;
+}
+.quotes .quote1 h5 {
+	margin-top: 50px;
+	align-content: center;
+}
+
+.quotes .quote1 h6 {
+	margin-top: 10px;
+	align-content: center;
+}
+
+/* .author1 {
+	height: 100px;
+	width: 200px;
+	background-color: blueviolet;
+} */
+/* 
+.quotes .quote2 {
+	background-color: azure;
+	height: 400px;
+	width: 300px;
+} */

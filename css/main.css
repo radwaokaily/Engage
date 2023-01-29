@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------------------- */
+.nav {
+    position: absolute;
+    padding: 19px;
+
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    font-family: 'Roboto';
+
+}
+
+.link {
+    margin-top: 10px;
+    margin-right: 80px;
+
+}
+
+.nav.logo h1 {
+    font-size: 50px;
+}
+
+.link a {
+    block-size: 10px;
+    font-size: large;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+    opacity: 0.5;
+    font-style: bold;
+}
+
+.container .nav .logo h1 {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: Roboto;
+
+}
+
+.link a:hover {
+
+
+    block-size: 30px;
+    font-size: large;
+    text-decoration: none;
+    color: rgb(69, 88, 150);
+    padding: 10px;
+    opacity: 0.5;
+    font-style: bold;
+}
+
+
+
+
+hr {
+    position: absolute;
+    margin-top: 80px;
+    opacity: 0.5;
+}
+
+.container {
+    width: fit-content;
+
+    position: relative;
+    width: 100%;
+    height: 150vh;
+    background: url('../business-main.jpg');
+    background-image: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+
+
+}
+
+.container img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.container .home .text-in-home {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40vh;
+    font-size: xx-large;
+    color: whitesmoke;
+    font-family: Roboto;
+
+}
+
+.container .home .text-in-home p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container.home {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container .home .bottons .button1 {
+    background-color: #5081ec;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5%;
+    margin-left: 10px;
+}
+
+.container .home .bottons .button2 {
+    background-color: whitesmoke;
+    /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5%;
+
+}
+
+.container .home .bottons .button1:hover {
+    color: black;
+    background-color: whitesmoke;
+    /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+}
+
+.bottoms {
+    border: 2px solid transparent;
+    background-color: #4274b7;
+    text-transform: uppercase;
+    font-family: 'Open Sans', arial;
+    letter-spacing: .2px;
+    font-weight: 700;
+    margin-top: 20px;
+    size: 100px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #162231;
+    position: relative;
+    width: 100%;
+    /* bottom:0%; */
+    color: whitesmoke;
+
+    height: 50vh;
+    font-family: Roboto;
+
+
+
+}
+
+footer .element {
+    line-height: 35px;
+    margin-top: 10vh;
+    font-family: Roboto;
+
+}
+
+footer .element h2 {
+    margin-left: -10%;
+}
+
+footer .element ul {
+
+    margin-top: 20px;
+
+}
+
+/* ----------------------------- */
+.advantages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 90%;
+    height: 300px;
+}
+
+.adv {
+    width: 32%;
+    height: 50%;
+}
+
+.adv p {
+    margin-top: 3%;
+}
+
+.big-font {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.sm-font {
+    font-family: 'Open Sans', arial;
+}
+
+/* ------------------------------- */
+
+.full-wid {
+    width: 100%;
+    height: 700px;
+}
+
+.gray {
+    background-color: #f8f8f9;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.contain {
+    width: 80%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.inner-img {
+    margin-top: 9%;
+    width: 50%;
+    height: 80%;
+}
+
+.inner-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.inner-content {
+    width: 40%;
+    height: 80%;
+    margin: 9% 10%;
+}
+
+.inner-content h2 {
+    margin-bottom: 8%;
+}
+
+.inner-content p {
+    line-height: 2;
+    margin-bottom: 8%;
+}
+
+.inner-content ul {
+    line-height: 2;
+    margin-bottom: 8%;
+    /* list-style-position: outside; */
+}
+
+.inner-content .learn {
+    border: none;
+    background-color: #4274b7;
+    text-transform: uppercase;
+    color: white;
+    padding: 3.5%;
+    border-radius: 7%;
+    transition: 0.3s all;
+}
+
+.learn:hover {
+    background-color: black;
+}
+
+/* ------------------------------- */
+.service {
+
+    background-color: rgb(224, 220, 220);
+    padding-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+}
+
+.service .star--icon {
+    width: 100%;
+    color: white;
+    font-size: 4vh;
+    display: flex;
+    justify-content: center;
+}
+
+.service .text h3 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 2vh;
+    font-size: 30px;
+    font-weight: 200px;
+}
+
+.service .text p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 17px;
+    color: #888;
+
+}
+
+.service--icon {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon {
+    margin: 4% 5% 4% 5%;
+    width: 15%;
+    height: 50%;
+    text-align: center;
+    line-height: 4vh;
+
+}
+
+.icon i {
+    border-radius: 50%;
+    margin-top: 3vh;
+    font-size: 4vh;
+    color: rgb(88, 88, 218);
+}
+
+.icon--text {
+    font-family: "Roboto";
+}
+
+.icon--text h5 {
+    font-size: 17px;
+}
+
+.icon--text p {
+    font-size: 15px;
+    color: #888;
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    .icon {
+        width: 100%;
+        margin: 3vh;
+
+    }
+
+    .icon--text {
+        line-height: 6vh;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .icon {
+        width: 40%;
+        margin: 3vh;
+    }
+
+    .icon--text {
+        line-height: 6vh;
+    }
+
+    .service {
+        height: fit-content;
+    }
+}
